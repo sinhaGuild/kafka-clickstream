@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Source library
-source ../utils/helper.sh
+source ./helper.sh
 
 ./stop.sh
 
@@ -53,4 +53,4 @@ Navigate to:
       http://localhost:9021
 EOF
 
-./sessionize-data.sh
+# ./sessionize-data.sh

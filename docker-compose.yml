@@ -131,6 +131,7 @@ services:
       xpack.security.enabled: "false"
       ES_JAVA_OPTS: "-Xms1g -Xmx1g"
       ELASTIC_HOST: elasticsearch
+      discovery.type: "single-node"
     volumes:
      - $PWD/ksql/ksql-clickstream-demo/demo:/scripts
 
